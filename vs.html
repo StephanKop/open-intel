@@ -8,8 +8,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/main.css">
     </head>
-    <body>
-        <img src="images/map.svg">
+    <body class="VS">
+        <section class="VS">
+            <section>
+                <h1>VERENIGDE STATEN</h1>
+            </section>
+
+            <section class="images">
+                <img src="images/VSmap1.svg" id="VSmap1">
+                <img src="images/VSmap2.svg" id="VSmap2" style="display: none">
+                <img src="images/bar chart.svg" id="chart1">
+                <img src="images/bar chart2.svg" id="chart2" style="display: none;">
+            </section>
+
+            <section>
+                <input type="range" min="1" max="100" value="1" step="10" id="slider" onchange="sliderChange(value)">
+            </section>
+        </section>
+
+        <section class="NextButtonToprocent">
+                <a href="map.html"><img src="images/circlebutton.svg"></a>
+            </section>
+
         <script src="js/main.js" async defer></script>
     </body>
 </html>

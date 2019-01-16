@@ -144,3 +144,98 @@ body {
     margin-left: 15em;
     margin-top: 15em;
 }
+
+/* /////////////////////////////////////////////////// */
+/* Introduction */
+/* ////////////////////////////////////////////////// */
+
+.introbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.IntroductionText {
+    margin-top: 10em;
+    width: 40%;
+    margin-left: 2em;
+}
+
+.IntroductionText h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.IntroductionText p {
+    color: white;
+    font-size: 1.2em;
+}
+
+.SideImage img {
+    margin-top: 5em;
+    width: 30em;
+}
+
+.NextButtonToMap img {
+    margin-right: 2em;
+    margin-top: 20em;
+    width: 5em;
+}
+
+/* /////////////////////////////////////////////////// */
+/* vs */
+/* ////////////////////////////////////////////////// */
+
+.VS {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.VS h1 {
+    font-size: 3em;
+    color: white;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.images {
+    margin-top: -10em;
+}
+
+#VSmap1 {
+    width: 40em;
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+#VSmap2 {
+    width: 40em;
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+#chart1 {
+    width: 25em;
+    margin-left: 15em;
+}
+
+#chart2 {
+    width: 25em;
+    margin-left: 15em;
+}
+
+.VS input {
+    margin-left: 5em;
+    margin-top: 10em;
+    width: 90%;
+}
+
+.NextButtonToprocent {
+    margin-top: -35em;
+    margin-left: 70em;
+    min-width: 3em;
+}
