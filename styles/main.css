@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* /////////////////////////////////////////////////// */
+/* intro page */
+/* ////////////////////////////////////////////////// */
+
+body {
+    background-image: url("../images/bluegradient.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin: auto;
+    justify-content: center;
+}
+
+.title img {
+    margin-top: 3em;
+    width: 10em;
+    margin-left: 9em;
+}
+
+.title h1 {
+    color: white;
+    font-size: 4em;
+    margin-left: 1.6em;
+    margin-bottom: 1em;
+}
+
+.title h2 {
+    color: white;
+    font-size: 2em;
+}
+
+.link {
+    margin: auto;
+    margin-top: 12em;
+}
+
+.link h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    margin-left: -2em;
+}
+
+.link img {
+    width: 5em;
+}
+
+
+/* /////////////////////////////////////////////////// */
+/* video */
+/* ////////////////////////////////////////////////// */
+
+.vimeo-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* pointer-events: none; */
+    overflow: hidden;
+ }
+ .vimeo-wrapper iframe {
+    width: 100vw;
+    height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    min-height: 100vh;
+    min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .NextButton img {
+    margin-top: 20em;
+    float: right;
+    width: 5em;
+}
+
+/* /////////////////////////////////////////////////// */
+/* map */
+/* ////////////////////////////////////////////////// */
+
+.MapBody {
+    background-image: url("../images/map.png");
+    background-size: 100%;
+}
+
+.VS img {
+    width: 2em;
+    margin-left: 15em;
+    margin-top: 15em;
+}
