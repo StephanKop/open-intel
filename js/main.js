@@ -16,5 +16,6 @@ function sliderChange() {
         document.getElementById("chart2").style.display = "none";
     }
 
+    
   console.log(value);
 }
