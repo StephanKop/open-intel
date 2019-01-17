@@ -62,18 +62,17 @@ body {
 .title {
     margin: auto;
     justify-content: center;
+    text-align: center;
 }
 
 .title img {
     margin-top: 3em;
     width: 10em;
-    margin-left: 9em;
 }
 
 .title h1 {
     color: white;
     font-size: 4em;
-    margin-left: 1.6em;
     margin-bottom: 1em;
 }
 
@@ -91,10 +90,11 @@ body {
     color: white;
     font-size: 1.5em;
     margin-bottom: 1em;
-    margin-left: -2em;
+    /* margin-left: -2em; */
 }
 
 .link img {
+    margin-left: 3em;
     width: 5em;
 }
 
