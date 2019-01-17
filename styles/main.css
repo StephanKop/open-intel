@@ -135,14 +135,25 @@ body {
 /* ////////////////////////////////////////////////// */
 
 .MapBody {
-    background-image: url("../images/map.png");
+    flex-direction: row;
+    background-image: url("../images/map1.png");
+    background-repeat: no-repeat;
     background-size: 100%;
+    z-index: 0;
 }
 
 .VS img {
     width: 2em;
-    margin-left: 15em;
+    margin-left: -27em;
     margin-top: 15em;
+    z-index: 1;
+}
+
+.NL img {
+    width: 2em;
+    margin-left: -1em;
+    margin-top: 12em;
+    z-index: 2;
 }
 
 /* /////////////////////////////////////////////////// */
@@ -233,11 +244,15 @@ body {
     margin-top: 10em;
     width: 90%;
 }
+.NextButtonToprocent  {
+    margin-top: -38em;
+    margin-left: 110em;
+    width: 5em;
+}
 
-.NextButtonToprocent {
-    margin-top: -35em;
-    margin-left: 70em;
-    min-width: 3em;
+
+.NextButtonToprocent img {
+    width: 5em;
 }
 
 .DataText {
@@ -302,4 +317,77 @@ body {
 
 .errortext h1 {
     text-decoration: none;
+}
+
+/* /////////////////////////////////////////////////// */
+/* nl */
+/* ////////////////////////////////////////////////// */
+
+.nltext {
+    margin-left: 22em;
+    text-align: center;
+    margin-top: 4em;
+    text-decoration: none;
+    width: 50%;
+}
+
+.nltext h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nltext p {
+    color: white;
+    font-size: 1.2em;
+}
+
+.nltext img {
+    margin-top: 2em;
+    width: 25em;
+}
+
+.linknl a{
+    margin-left: 42em;
+    margin-top: -12em;
+}
+
+.linknl img{
+    width: 4em;
+}
+
+/* /////////////////////////////////////////////////// */
+/* heatmap */
+/* ////////////////////////////////////////////////// */
+
+.nlheatmap {
+    text-align: center;
+}
+
+.nlheatmap h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nlheatmap p {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.nlheatmap img {
+    justify-content: space-around;
+    width: 70%;
+}
+
+.NextButtonToPercentage img {
+        margin-top: -30em;
+        margin-right: 1em;
+        float: right;
+        width: 5em;
 }
