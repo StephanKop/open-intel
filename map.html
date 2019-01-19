@@ -9,13 +9,27 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body class="MapBody">
-        <section class="VS">
-            <a href="vs.html"><img src="images/mappoint.svg"></a>
+
+        <section class="MapText">
+            <h1>Van wie is het internet nou eigenlijk?</h1>
+            <p>Op de maps hiernaast zie je een heatmap die weergeeft hoe de verschuiving van het internet plaatsvind.</p>
+            <br>
+            <p>Voor details van Nederland en Amerika kan je op de landen drukken.</p>
         </section>
 
-        <section class="NL">
-                <a href="nl.html"><img src="images/mappoint.svg"></a>
+        <section class="TopImages">
+            <a href="vs.html"><img src="images/VS.svg"></a>
+            <a href="nl.html"><img src="images/NL.svg"></a>
+        </section>
+
+            <section class="BottomImages">
+                <img src="images/UK.svg">
+                <img src="images/De.svg">
             </section>
-        <script src="/js/main.js" async defer></script>
+
+            <section class="RangeSlider">
+                <input type="range" min="1" max="100" value="1" step="10" id="slider" onchange="sliderChange(value)">
+            </section>
+        <script src="js/main.js" async defer></script>
     </body>
 </html>

@@ -53,6 +53,11 @@ table {
 
 body {
     background-image: url("../images/bluegradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(135deg, #1b4887 0%,#1c65b2 37%,#1c65b2 37%,#5aa0e2 100%);
+    background-repeat: no-repeat;
+    background-size: cover; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -135,25 +140,59 @@ body {
 /* ////////////////////////////////////////////////// */
 
 .MapBody {
-    flex-direction: row;
-    background-image: url("../images/map1.png");
-    background-repeat: no-repeat;
+    flex-direction: column;
     background-size: 100%;
     z-index: 0;
 }
 
-.VS img {
-    width: 2em;
-    margin-left: -27em;
-    margin-top: 15em;
-    z-index: 1;
+.TopImages a img{
+    flex-direction: row-reverse;
+    width: 15em;
+    float: right;
+    margin: 1.5em;
+    margin-top: -12em;
+    margin-right: 5em;
 }
 
-.NL img {
-    width: 2em;
-    margin-left: -1em;
-    margin-top: 12em;
-    z-index: 2;
+.TopImages img:hover {
+    box-shadow: 1px 1px 10px 5px lightgrey;
+}
+
+.BottomImages img {
+    flex-direction: row-reverse;
+    width: 15em;
+    float: right;
+    margin: 1.5em;
+    margin-right: 5em;
+}
+
+.BottomImages img:hover {
+    box-shadow: 1px 1px 10px 5px lightgrey;
+}
+
+.RangeSlider input {
+    width: 60em;
+    float: right;
+    margin-right: 4em;
+    margin-top: -1.5em;
+}
+
+.MapText {
+    margin-top: 2em;
+    width: 45%;
+    margin-left: 2em;
+}
+
+.MapText h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.MapText p {
+    color: white;
+    font-size: 1.2em;
 }
 
 /* /////////////////////////////////////////////////// */
@@ -169,7 +208,7 @@ body {
 
 .IntroductionText {
     margin-top: 10em;
-    width: 40%;
+    width: 45%;
     margin-left: 2em;
 }
 
@@ -218,15 +257,15 @@ body {
 }
 
 #VSmap1 {
-    width: 40em;
+    width:  30em;
     margin-left: 1em;
-    margin-top: 3em;
+    margin-top: 20em;
 }
 
 #VSmap2 {
-    width: 40em;
+    width: 30em;
     margin-left: 1em;
-    margin-top: 3em;
+    margin-top: 20em;
 }
 
 #chart1 {
@@ -245,8 +284,8 @@ body {
     width: 90%;
 }
 .NextButtonToprocent  {
-    margin-top: -38em;
-    margin-left: 110em;
+    margin-top: -22em;
+    margin-left: 80em;
     width: 5em;
 }
 
