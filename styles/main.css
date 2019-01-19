@@ -170,10 +170,23 @@ body {
     box-shadow: 1px 1px 10px 5px lightgrey;
 }
 
-.RangeSlider input {
-    width: 60em;
+.RangeSlider {
+    flex-direction: row-reverse;
+}
+
+.RangeSlider h3 {
+    flex-direction: row-reverse;
+    color: white;
     float: right;
-    margin-right: 4em;
+    margin-top: -1.1em;
+    margin-right: -42em;
+}
+
+.RangeSlider input {
+    width: 50em;
+    float: right;
+    flex-direction: row-reverse;
+    margin-right: 13em;
     margin-top: -1.5em;
 }
 

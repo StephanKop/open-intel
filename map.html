@@ -18,8 +18,10 @@
         </section>
 
         <section class="TopImages">
-            <a href="vs.html"><img src="images/VS.svg"></a>
-            <a href="nl.html"><img src="images/NL.svg"></a>
+            <a href="vs.html"><img src="images/VS.svg" id="VS"></a>
+            <a href="nl.html"><img src="images/NL.svg" id="NL"></a>
+            <a href="vs.html"><img src="images/VS1.svg" id="VS1" style="display: none;"></a>
+            <a href="nl.html"><img src="images/NL1.svg" id="NL1" style="display: none;"></a>
         </section>
 
             <section class="BottomImages">
@@ -28,7 +30,8 @@
             </section>
 
             <section class="RangeSlider">
-                <input type="range" min="1" max="100" value="1" step="10" id="slider" onchange="sliderChange(value)">
+                <input type="range" min="1" max="100" value="1" step="10" id="slidermap" onchange="sliderChange(value)">
+                <h3 id="date">1 April 2016</h3>
             </section>
         <script src="js/main.js" async defer></script>
     </body>

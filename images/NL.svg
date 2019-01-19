@@ -6,12 +6,13 @@
 	 style="enable-background:new 0 0 870 924;" xml:space="preserve">
 <style type="text/css">
 	
-		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#B9B9B9;stroke-width:1.05;stroke-linejoin:bevel;stroke-miterlimit:10;}
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#B1C0FF;stroke:#B9B9B9;stroke-width:1.05;stroke-linejoin:bevel;stroke-miterlimit:10;}
 	
-		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#B9B9B9;stroke-width:0.7;stroke-linejoin:bevel;stroke-miterlimit:10;}
-	.st2{fill:none;}
-	.st3{font-family:'ArialMT';}
-	.st4{font-size:72px;}
+		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#B1C0FF;stroke:#B9B9B9;stroke-width:0.7;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st2{fill:#B1C0FF;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:72px;}
 </style>
 <sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" height="616px" id="base" inkscape:current-layer="svg2" inkscape:cx="409.90121" inkscape:cy="782.57354" inkscape:guide-bbox="true" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="753" inkscape:window-maximized="1" inkscape:window-width="1280" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:zoom="1.219753" pagecolor="#ffffff" showgrid="false" showguides="true" width="534px">
 	</sodipodi:namedview>
@@ -325,5 +326,5 @@
 <path id="path929" class="st1" d="M171,657.3v-1.5h-1.5h1.5l0,0V657.3L171,657.3L171,657.3z"/>
 <path id="path949" class="st1" d="M280.5,607.8l-1.5,1.5l0,0h1.5l0,0H279v1.5l-1.5-1.5l0,0l0,0L280.5,607.8z"/>
 <rect x="442.6" y="429.7" class="st2" width="101.9" height="90.8"/>
-<text transform="matrix(1 0 0 1 442.562 481.2039)" class="st3 st4">NL</text>
+<text transform="matrix(1 0 0 1 442.562 481.2039)" class="st3 st4 st5">NL</text>
 </svg>
