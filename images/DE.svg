@@ -3,10 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 1360" style="enable-background:new 0 0 1000 1360;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
-	.st1{fill:none;}
+	.st0{opacity:0.22;fill:#B100FF;}
+	.st1{fill:#FFFFFF;}
 	.st2{font-family:'ArialMT';}
 	.st3{font-size:72px;}
+	.st4{fill:none;}
+	.st5{font-size:48px;}
 </style>
 <path id="DEU1572" class="st0" d="M391.5,624.8l-1.8,3.1l-0.7,0.8l-7.8,2.6l-0.9,0.5l-0.5,0.4l0.1,0.3l0.6,0.6l1.4,0.9l0.3,0.4
 	l-0.1,0.8l-0.4,1.1l-0.4,1.3l-0.3,1l-0.1,0.5l-0.3,1.1l-0.5,1.3l-0.5,0.8l-0.5,0.7l-1.2,0.9l-0.5,0.8l-0.4,0.8l-0.5,1.3l-0.3,0.6
@@ -855,9 +857,10 @@
 	l-1.6-0.4l-0.7-0.9l-0.4-1.2l-0.7-1.4l-1.3-1.8l-0.2-0.8l-1.5,1.2l-0.8,0.9l-1.8,2.5l-2.5,1.5l-1.9,2.1l-1.9,1.4l-2.2-0.7l-0.4-2.2
 	l0.8-3.5l1.4-3.1l1.5-1.4l0.4-0.8l0.4-1.8l0.3-1.8l-0.4-0.8l-4.8,1.3l-1.6,1.1l-0.7-0.2v-2.2l0.7-1.2l1.1-1.3l1.3-0.9l15-4.4l3-0.1
 	l2.9,1.6v1.2l-1.7,1.3l-2.3,1.3L821.5,79.5L821.5,79.5z"/>
-<polygon class="st0" points="42.5,653.8 42.5,653.8 42.5,653.8 "/>
-<polygon class="st0" points="920.9,582.4 920.9,582.4 920.9,582.4 "/>
-<polygon class="st0" points="829.6,737.1 829.6,737.1 829.6,737.1 "/>
-<rect x="432.1" y="641.6" class="st1" width="101.9" height="90.8"/>
-<text transform="matrix(1 0 0 1 432.062 693.1539)" class="st2 st3">DE</text>
+<path class="st0" d="M42.5,653.8L42.5,653.8L42.5,653.8z"/>
+<path class="st0" d="M920.9,582.4L920.9,582.4L920.9,582.4z"/>
+<path class="st0" d="M829.6,737.1L829.6,737.1L829.6,737.1z"/>
+<text transform="matrix(1 0 0 1 432.062 693.1539)" class="st1 st2 st3">DE</text>
+<rect x="341.1" y="713.1" class="st4" width="273.1" height="76.6"/>
+<text transform="matrix(1 0 0 1 370.9308 747.4974)" class="st1 st2 st5">5.745.429</text>
 </svg>
