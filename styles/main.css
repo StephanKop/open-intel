@@ -145,12 +145,16 @@ body {
     z-index: 0;
 }
 
+.TopImages {
+    margin-top: -23em;
+}
+
 .TopImages a img{
     flex-direction: row-reverse;
     width: 15em;
     float: right;
     margin: 1.5em;
-    margin-top: -12em;
+    /* margin-top: -17em; */
     margin-right: 5em;
 }
 
@@ -166,9 +170,9 @@ body {
     margin-right: 5em;
 }
 
-.BottomImages img:hover {
+/* .BottomImages img:hover {
     box-shadow: 1px 1px 10px 5px lightgrey;
-}
+} */
 
 .RangeSlider {
     flex-direction: row-reverse;
