@@ -47,7 +47,8 @@ var svg = d3.select("#treemap")
   var root = d3.hierarchy(data).sum(function(d){ return d.value}) // Here the size of each leave is given in the 'value' field in input data
 
   var color = d3.scaleOrdinal()
-    .range(["#00FF00","#0000FF","#FF8C00", "#FFFF00", "#FF0000", "#800080"]);
+    // .range(["#00FF00","#0000FF","#FF8C00", "#FFFF00", "#FF0000", "#800080"]);
+    .range(["#C78CFF","#AF7BE0","#996CC4", "#805AA3", "#62457C", "#443057"]);
 
   var tooltip = d3.select("body").append("div").attr("class", "toolTip");
 
@@ -74,7 +75,7 @@ var svg = d3.select("#treemap")
         .style("left", d3.event.pageX - 50 + "px")
         .style("top", d3.event.pageY - 70 + "px")
         .style("display", "inline-block")
-        .html((d.data.name) + "<br>" + (d.value)); })
+        .html((d.data.name) + "<br>" + ("€ " + d.value)); })
     .on("mouseout", function(d){ tooltip.style("display", "none");});
 
   // and to add the text labels

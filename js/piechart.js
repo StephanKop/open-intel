@@ -1,22 +1,22 @@
 var data = [					// 1540944000000 31 October 2018
 {
     "name": "DE",
-    "value": 385373
+    "value": 385.373
 }, {
     "name": "US",
-    "value": 249181
+    "value": 249.181
 }, {
     "name": "IE",
-    "value": 214094
+    "value": 214.094
 }, {
     "name": "DK",
-    "value": 82495
+    "value": 82.495
 }, {
     "name": "GB",
-    "value": 72914
+    "value": 72.914
 }, {
     "name": "BE",
-    "value": 58041
+    "value": 58.041
 }]
 
 var width = 300,
@@ -24,7 +24,7 @@ var width = 300,
 	radius = Math.min(width, height) / 2;
 
 var color = d3.scaleOrdinal()
-	.range(["#00FF00","#0000FF","#FF8C00", "#FFFF00", "#FF0000", "#800080"]);
+	.range(["#C78CFF","#AF7BE0","#996CC4", "#805AA3", "#62457C", "#443057"]);
 
 var tooltip = d3.select("body").append("div").attr("class", "toolTip");
 
@@ -59,7 +59,7 @@ g.append("path")
         .style("left", d3.event.pageX - 50 + "px")
         .style("top", d3.event.pageY - 70 + "px")
         .style("display", "inline-block")
-        .html((d.data.name) + "<br>" + (d.value)); })
+        .html((d.data.name) + "<br>" + (d.value + " Domeinen")); })
     .on("mouseout", function(d){ tooltip.style("display", "none");});
 
 g.append("text")
