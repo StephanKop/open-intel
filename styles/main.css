@@ -342,6 +342,19 @@ body {
     font-size: 1.5em;
     width: 20em;
     margin-top: -1em;
+}
+
+.DataImageVS {
+    width: 20em;
+    margin-right: 10em;
+    margin-top: 3em;
+}
+
+.DataImageVS p {
+    color: white;
+    font-size: 1.2em;
+    width: 30em;
+    /* margin-top: -1em; */
 
 }
 

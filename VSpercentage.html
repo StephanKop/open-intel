@@ -7,24 +7,40 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/main.css">
+        <link href="styles/treemapvseco.css" rel="stylesheet">
+        <link href="styles/treemap.css" rel="stylesheet">
     </head>
     <body class="introbody">
         
         <section class="DataText">
             <h1>De gevolgen van het uitvallen van Amerika</h1>
-            <p>Wanneer het internet van Amerika onbereikbaar wordt zijn de gevolgen niet te overzien.
-               Het offline gaan van Amerika zal ook een grote impact hebben op de economie. Dit heeft als reden van het wegvallen van een enorme inkomsten stroom. 
-            </p>
+            <p>Wanneer het internet van Amerika onbereikbaar wordt zijn de gevolgen niet te overzien. Het offline gaan van Amerika 
+               zal ook een grote impact hebben op de economie. Dit heeft als reden van het wegvallen van een enorme inkomsten stroom. </p>
         </section>
 
-        <section class="DataImage">
-                <img src="images/Data.svg">
-            </section>
+        <!-- <section class="DataImage">
+                <img src="images/NLData.svg">
+            </section> -->
+
+        <section class="PercenColumn">
+
+            <div id="treemap" class="DataImageVS">
+                <p>Totaal aantal uitgevallen domeinen: <b>84.678.648</b></p>
+            </div>
+
+            <div id="treemapvs" class="DataImageVS">
+                <p>Totale economische schade: <b>€677.429.184</b></p>
+            </div>
+
+        </section>
 
             <section class="NextButton">
                     <a href="redbutton.html"><img src="images/circlebutton.svg"></a>
                 </section>
-        
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="js/treemapvseco.js"></script>
+        <script src="js/treemap.js"></script>
         <script src="js/main.js" async defer></script>
     </body>
 </html>
