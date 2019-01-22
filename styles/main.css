@@ -52,16 +52,15 @@ table {
 /* ////////////////////////////////////////////////// */
 
 body {
-    background-image: url("../images/bluegradient.jpg");
+    /* background-image: url("../images/bluegradient.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    /* background: linear-gradient(135deg, #1b4887 0%,#1c65b2 37%,#1c65b2 37%,#5aa0e2 100%);
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background-repeat: no-repeat; */
+    background: linear-gradient(135deg, #4030d6 0%,#000000 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
 }
 
 .title {
@@ -329,11 +328,35 @@ body {
     font-size: 1.2em;
 }
 
+.PercenColumn{
+    flex-direction: column;
+}
+
 .DataImage {
-    width: 40em;
-    margin-top: 3em;
+    width: 20em;
+    margin-right: 10em;
+}
+
+.DataImage h2 {
+    color: white;
+    font-size: 1.5em;
+    width: 20em;
+    margin-top: -1em;
 
 }
+
+.PieImage {
+    width: 20em;
+    margin-top: 5em;
+}
+
+.PieImage h2 {
+    color: white;
+    margin-bottom: -2em;
+    font-size: 1.5em;
+    width: 20em;
+}
+
 
 /* /////////////////////////////////////////////////// */
 /* red button */

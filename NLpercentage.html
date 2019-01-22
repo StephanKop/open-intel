@@ -7,6 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/main.css">
+        <link href="styles/treemapnleco.css" rel="stylesheet">
+        <link href="styles/piechart.css" rel="stylesheet">
     </head>
     <body class="introbody">
         
@@ -15,14 +17,29 @@
             <p>Wanneer het internet van Nederland afgesloten wordt van het buitenland zijn de gevolgen niet te overzien. Websites zullen onbereikbaar zijn en bedrijven zullen hun klanten niet meer kunnen dienen.</p>
         </section>
 
-        <section class="DataImage">
+        <!-- <section class="DataImage">
                 <img src="images/NLData.svg">
-            </section>
+            </section> -->
+
+        <section>
+
+            <div id="pie" class="PieImage">
+                <h2>Uitgevallen domeinen per land</h2>
+            </div>
+
+            <div id="treemap" class="DataImage">
+                <h2>Economische gevolgen per land</h2>
+            </div>
+
+        </section>
 
             <section class="NextButton">
                     <a href="redbutton.html"><img src="images/circlebutton.svg"></a>
                 </section>
-        
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="js/treemapnleco.js"></script>
+        <script src="js/piechart.js"></script>
         <script src="js/main.js" async defer></script>
     </body>
 </html>
