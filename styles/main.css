@@ -51,6 +51,20 @@ table {
 /* intro page */
 /* ////////////////////////////////////////////////// */
 
+@keyframes Opacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 body {
     /* background-image: url("../images/bluegradient.jpg");
     background-size: cover;
@@ -61,6 +75,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+    animation: 1s ease-in-out Opacity;
 }
 
 .title {
@@ -78,11 +93,13 @@ body {
     color: white;
     font-size: 4em;
     margin-bottom: 1em;
+    font-weight: bold;
 }
 
 .title h2 {
     color: white;
     font-size: 2em;
+    margin-top: -1em;
 }
 
 .link {
@@ -98,8 +115,13 @@ body {
 }
 
 .link img {
-    margin-left: 3em;
+    margin-left: 4em;
     width: 5em;
+    border-radius: 50%;
+}
+
+.link img:hover {
+    box-shadow: 0px 0px 10px 5px lightgrey;
 }
 
 mark {
@@ -147,10 +169,11 @@ mark {
     flex-direction: column;
     background-size: 100%;
     z-index: 0;
+    animation: 1s ease-in-out Opacity;
 }
 
 .TopImages {
-    margin-top: -23em;
+    margin-top: -19em;
 }
 
 .TopImages a img{
@@ -214,6 +237,7 @@ mark {
 .MapText p {
     color: white;
     font-size: 1.2em;
+    width: 90%;
 }
 
 .MapText mark {
@@ -231,6 +255,7 @@ mark {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    animation: 1s ease-in-out Opacity;
 }
 
 .IntroductionText {
@@ -249,6 +274,7 @@ mark {
 .IntroductionText p {
     color: white;
     font-size: 1.2em;
+    width: 82%;
 }
 
 .SideImage img {
@@ -260,6 +286,29 @@ mark {
     margin-right: 2em;
     margin-top: 20em;
     width: 5em;
+}
+
+.NextButtonToMap img {
+    margin-right: 2em;
+    margin-top: 20em;
+    width: 5em;
+    border-radius: 50%;
+}
+
+.NextButtonToMap img:hover {
+    box-shadow: 0px 0px 10px 5px lightgrey;
+}
+
+.NextButtonVideo {
+    background-image: url(../images/circlebutton.svg);
+    background-repeat: no-repeat;
+    margin-right: 2em;
+    margin-top: 20em;
+    width: 5em;
+}
+
+.NextButtonVideo a{
+    display:block;
 }
 
 /* /////////////////////////////////////////////////// */
