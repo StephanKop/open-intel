@@ -102,6 +102,11 @@ body {
     width: 5em;
 }
 
+mark {
+    color: red;
+    background: none;
+    font-weight: bold;
+}
 
 /* /////////////////////////////////////////////////// */
 /* video */
@@ -209,6 +214,12 @@ body {
 .MapText p {
     color: white;
     font-size: 1.2em;
+}
+
+.MapText mark {
+    color: red;
+    background: none;
+    font-weight: bold;
 }
 
 /* /////////////////////////////////////////////////// */
@@ -342,6 +353,7 @@ body {
     font-size: 1.5em;
     width: 20em;
     margin-top: -1em;
+    padding-left: 0.5em;
 }
 
 .DataImageVS {
@@ -354,8 +366,7 @@ body {
     color: white;
     font-size: 1.2em;
     width: 30em;
-    /* margin-top: -1em; */
-
+    padding-left: 0.5em;
 }
 
 .PieImage {
@@ -368,6 +379,7 @@ body {
     margin-bottom: -2em;
     font-size: 1.5em;
     width: 20em;
+    padding-left: 0.5em;
 }
 
 
@@ -453,7 +465,10 @@ body {
 /* ////////////////////////////////////////////////// */
 
 .nltext {
-    margin-left: 22em;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 22em; */
+    margin: auto;
     text-align: center;
     margin-top: 4em;
     text-decoration: none;
@@ -463,9 +478,9 @@ body {
 .nltext h1{
     color: white;
     font-size: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     font-weight: bold;
-    text-decoration: none;
+    text-align: center;
 }
 
 .nltext p {
@@ -474,13 +489,23 @@ body {
 }
 
 .nltext img {
-    margin-top: 2em;
+    /* margin-top: 2em; */
+    margin: auto;
     width: 25em;
 }
 
+.nltext mark {
+    color: red;
+    background: none;
+    font-weight: bold;
+}
+
 .linknl a{
-    margin-left: 42em;
-    margin-top: -12em;
+    /* margin-left: 42em;
+    margin-top: -12em; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: -2em;
 }
 
 .linknl img{

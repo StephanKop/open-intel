@@ -75,7 +75,7 @@ var svg = d3.select("#treemap")
         .style("left", d3.event.pageX - 50 + "px")
         .style("top", d3.event.pageY - 70 + "px")
         .style("display", "inline-block")
-        .html((d.data.name) + "<br>" + ("€ " + d.value)); })
+        .html((d.data.name) + "<br>" + ("€" + d.value)); })
     .on("mouseout", function(d){ tooltip.style("display", "none");});
 
   // and to add the text labels
