@@ -407,8 +407,45 @@ body {
 /* error */
 /* ////////////////////////////////////////////////// */
 
+.error {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.error img {
+    width: 10em;
+}
+
 .errortext h1 {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.errortext h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.errortext p {
+    color: white;
+}
+
+.errorlink a {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 5em;
+    transition: all .2s ease-in-out;
+}
+
+.errorlink a:hover {
+    /* color: rgb(51, 164, 192); */
+    transform: scale(1.2);
 }
 
 /* /////////////////////////////////////////////////// */
