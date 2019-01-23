@@ -286,17 +286,13 @@ mark {
     margin-right: 2em;
     margin-top: 20em;
     width: 5em;
-}
-
-.NextButtonToMap img {
-    margin-right: 2em;
-    margin-top: 20em;
-    width: 5em;
     border-radius: 50%;
+    Transition: 0.5 ease-in-out;
 }
 
 .NextButtonToMap img:hover {
     box-shadow: 0px 0px 10px 5px lightgrey;
+    Transition: 0.5 ease-in-out;
 }
 
 .NextButtonVideo {
