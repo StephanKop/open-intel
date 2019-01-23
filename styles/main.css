@@ -159,6 +159,12 @@ mark {
     margin-top: 20em;
     float: right;
     width: 5em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+
+.NextButton img:hover {
+    box-shadow: 0px 0px 10px 5px lightgrey;
 }
 
 /* /////////////////////////////////////////////////// */
